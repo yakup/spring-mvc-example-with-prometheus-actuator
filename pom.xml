@@ -6,8 +6,6 @@
 	<artifactId>spring-mvc-example-with-prometheus-actuator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>Spring MVC Example</name>
-	<description>Spring MVC Hello World Example</description>
 
 	<dependencies>
 		<dependency>

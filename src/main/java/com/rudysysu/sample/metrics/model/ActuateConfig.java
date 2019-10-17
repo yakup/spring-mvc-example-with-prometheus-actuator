@@ -1,4 +1,4 @@
-package com.journaldev.spring.model;
+package com.rudysysu.sample.metrics.model;
 
 import java.util.Collection;
 
