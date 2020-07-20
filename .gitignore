@@ -3,3 +3,5 @@
 /.classpath
 /.project
 /.settings
+/.idea/
+/spring-mvc-example-with-prometheus-actuator.iml
