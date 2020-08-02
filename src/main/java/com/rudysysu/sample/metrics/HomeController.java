@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
+@RequestMapping("/home")
 public class HomeController {
     private final static Logger LOGGER = Logger.getLogger(HomeController.class);
 
@@ -44,7 +45,7 @@ public class HomeController {
 
         user_register_counter.labels("add").inc();
 
-        model.addAttribute("userName", user.getUserName());
+        model.addAttribute("user", user);
         return "user";
     }
 }
